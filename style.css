@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+    padding: 30px 0px;
+}
+.logo{
+    width: 40%;
+    float: left;
+}
+.menu{
+    width: 60%;
+    float: left;
+}
+.menu nav ul{
+    list-style: none;
+    margin: 15px 10px;
+}
+.menu nav ul li{
+display: inline-block;
+
+}
+.menu nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #15a4fa;
+    color: #dbd1d1;
+    margin: 27px;
+    letter-spacing: 0.5px;
+ }
+.banner{
+    width: 100%;
+    float: left;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+}
+.banner-main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+}
+.banner-main h2{
+    color: #ffffff;
+    font-size: 120px;
+    letter-spacing: 0.5px;
+}
+.banner-main span{
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    padding-top: 30px;
+}
+.banner-main p{
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 30px;
+    letter-spacing: 0.5px;
+}
+.banner-btn{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    letter-spacing: 0.5px;
+}
+.banner-icon{
+    padding: 150px 0px 80px 0px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.intro{
+    width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+}
+.intro-main{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro-main h5{
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+.intro-main p{
+    margin: 30px 450px 100px 450px;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+.service{
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.service-one{
+    width: 20%;
+    float: left;
+    margin: 0 125px;
+    text-align: center;
+}
+.icon-1{
+    background-color: #15a4fa;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.service-one h1{
+    margin-top: 30px;
+    font-size: 22pt;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+.service-one p{
+    margin-top: 20px;
+    font-size: 15pt;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+.service-two{
+    width: 20%;
+    float: left;
+    margin: 0 125px;
+    text-align: center;
+}
+.icon-2{
+    background-color: #15a4fa;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+.service-two h1{
+    margin-top: 30px;
+    font-size: 22pt;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+.service-two p{
+    margin-top: 20px;
+    font-size: 15pt;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+.service-three{
+    width: 20%;
+    height: 100px;
+    float: left;
+    margin: 0 125px;
+    text-align: center;
+}
+.icon-3{
+    background-color: #15a4fa;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.service-three h1{
+    margin-top: 30px;
+    font-size: 22pt;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+.service-three p{
+    margin-top: 20px;
+    font-size: 15pt;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+.portfolio{
+    width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+.portfolio h1{
+    text-align: center;
+    font-size: 41pt;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+.portfolio p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15pt;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+.gallery-1{
+    width: 100%;
+    float: left;
+    margin: 60px 0 10px 350px;
+}
+.image-1{
+    width: 20%;
+    float: left;
+}
+.image-2{
+    width: 20%;
+    float: left;
+}
+.image-3{
+    width: 20%;
+    float: left;
+}
+.gallery-2{
+    width: 100%;
+    float: left;
+    margin: 60px 0px 10px 350px;
+}
+.image-4{
+    width: 20%;
+    float: left
+}
+.image-5{
+    width: 20%;
+    float: left
+}
+.image-6{
+    width: 20%;
+    float: left
+}
+.contact{
+    width: 100%;
+    float: left;
+    background: url(../images/form-bg.jpg) no-repeat;
+    background-size: cover;
+     padding: 70px 0px;
+}
+.contact h1{
+    font-size: 41pt;
+    font-weight: normal;
+    text-align: center;
+}
+.contact p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 15pt;
+    font-weight: lighter;
+    text-align: center;
+}
+.form{
+    width: 100%;
+    float: left;
+}
+.name{
+    width: 30%;
+    background: transparent;
+    color: #999999;
+    border: 1px solid #999999;
+    padding: 30px 250px 30px 10px;
+    font-size: 15pt;
+    text-align: left;
+    margin: 10px 500px;
+}
+.email{
+    width: 30%;
+    background: transparent;
+    color: #999999;
+    border: 1px solid #999999;
+    padding: 30px 250px 30px 10px;
+    font-size: 15pt;
+    text-align: left;
+    margin: 10px 500px;
+}
+.message{
+    width: 30%;
+    background: transparent;
+    color: #999999;
+    border: 1px solid #999999;
+    padding: 30px 250px 150px 10px;
+    font-size: 15pt;
+    text-align: left;
+    margin: 10px 500px;
+}
+.form-icon{
+        margin: 30px 585px 120px 500px;
+    color: #e0e1e3
+}
+.form-btn{
+    background: transparent;
+    color: #e0e1e3;
+    border: 1px solid #e0e1e3;
+    padding: 15px 30px;
+}
+.footer{
+    width: 100%;
+    float: left;
+}
+.copyright{
+    width: 40%;
+    float: left;
+    margin: 10px auto;
+}
+.copyright p{
+    color: #999999;
+    font-size: 15pt;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px auto;
+}
+.social-icon{
+    width: 60%;
+    float: left;
+    margin: 10px auto;
+}
+.fa-facebook{
+    color: #ffffff;
+    background-color: #15a4fa;
+    margin: 20px;
+    padding: 20px;
+}
+.fa-twitter{
+    color: #ffffff;
+    background-color: #15a4fa;
+    margin: 20px;
+    padding: 20px;
+}
+.fa-google-plus{
+    color: #ffffff;
+    background-color: #15a4fa;
+    margin: 20px;
+    padding: 20px;
+}
+.fa-linkedin{
+    color: #ffffff;
+    background-color: #15a4fa;
+    margin: 20px;
+    padding: 20px;
+}
